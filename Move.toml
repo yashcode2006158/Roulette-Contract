@@ -1,0 +1,15 @@
+[package]
+name = "RouletteContract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+yash_addr = "0x66b464b2b8ef2d18747af6d0ff6bec69fab24b4de50bb494652587dfaa782f8e"
+[dev-addresses]
+  
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
